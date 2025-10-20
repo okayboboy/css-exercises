@@ -3,14 +3,37 @@ body {
 }
 
 img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: auto;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
 }
+.title{
+  display: flex;
+  justify-content: center;
+  margin: 32px 0;
+}
+
+.item{
+  display: flex;
+  gap: 52px;
+  justify-content: space-evenly;
+}
+
+.items{
+  display: flex;
+  flex-basis: 200px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text{
+  text-align: center;
+}
+
 
 /* do not edit this footer */
 .footer {
